@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, rgb(231, 98, 98), rgb(136, 203, 144), rgb(129, 219, 255));
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: .3rem;
+    border-color: gray;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.form label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.form input {
+    border-radius: 1rem;
+}
+
+#output {
+    font-size: large;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+.prestamo-info {
+    padding: 20px;
+}
